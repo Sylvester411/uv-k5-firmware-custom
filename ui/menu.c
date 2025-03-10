@@ -280,6 +280,7 @@ const char * const gSubMenu_F_LOCK[] =
 	"FCC HAM\n144-148\n420-450",
 	"CE HAM\n144-146\n430-440",
 	"GB HAM\n144-148\n430-440",
+	"GMRS\nCanada\n462",
 	"137-174\n400-430",
 	"137-174\n400-438",
 	"DISABLE\nALL",

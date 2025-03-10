@@ -208,6 +208,11 @@ int32_t TX_freq_check(const uint32_t Frequency)
 				return 0;
 			break;
 
+		case F_LOCK_GMRS:
+			if (Frequency >= 46255000 && Frequency <= 46272500)
+				return 0;
+			break;
+
 		case F_LOCK_430:
 			if (Frequency >= frequencyBandTable[BAND3_137MHz].lower && Frequency < 17400000)
 				return 0;
